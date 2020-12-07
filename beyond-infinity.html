@@ -10,8 +10,9 @@
             <a href="steam://connect/69.140.244.127:27015">Connect to the server: E2 Beyond Infinity | 10x E2 Limits | Starfall | CSLua</a>
         </h1>
         <script>
+            document.addEventListener('contextmenu', event => event.preventDefault());
             window.location.href = 'steam://connect/69.140.244.127:27015';
-            window.history.back();
+            setTimeout(() => window.history.back(), 10000);
         </script>
     </body>
 </html>
